@@ -1,0 +1,22 @@
+<!-- 
+    autoplay: inicia o vídeo automaticamente
+
+    preload:
+        -> auto = antes de iniciar o vídeo, o navegar baixa o resto gradativamente
+        -> metadata = antes de iniciar o vídeo, o navegar baixa todo o vídeo
+        -> nome = não carrega o vídeo até que o usuário inicie
+
+    loop: vídeo é reproduzido infinatamente
+
+    muted: vídeo inicia mutado
+
+    poster="path": imagem de fundo antes do vídeo iniciar
+-->
+
+<video controls
+    poster="./resources/assets-example/ball.png"
+>
+    <source src="./resources/assets-example/rocket.mp4" type="video/mp4">
+
+    <p>Este browser não suporta vídeo, baixe-o aqui</p>
+</video>
