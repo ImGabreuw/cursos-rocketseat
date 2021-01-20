@@ -1,0 +1,41 @@
+<!--
+    Tag input (<input>)
+
+    - autocomplete = busca de dados salvos no navegador e completa automaticamente
+    - autofocus = ao caregar a página o cursos ficará piscando no input que possuir esse atributo
+                  (OBS: apenas um por página)
+    - disabled = não é possível editar
+    - readonly = 'disabled' + algumas diferenças estéticas
+    - value = seta umm texto padrão no input
+    - form = linkar um input a um formulário
+    - name = nome para referência ao input
+    - required = é obrigatório que o conteúdo do input seja preenchido (caso não for -> msg error)
+    - placeholder:
+        * (password, search, telefone, text, url)
+        * IMPORTANTE: NÃO SUBSTITUA um label por placeholder, por questões de acessibilidade
+-->
+
+<!-- Exemplo de autocomplete -->
+<input type="email" autocomplete="email">
+
+<!-- Exemplo de autofocus -->
+<input type="text" autofocus>
+
+<!-- Exemplo de disabled -->
+<input type="text" value="Texto" disabled>
+
+<!-- Exemplo de value -->
+<input type="text" value="Texto padrão">
+
+<!-- Exemplo de readonly -->
+<input type="text" value="Texto" readonly>
+
+<!-- Exemplo de form -->
+<form id="meu-form"></form>
+<input name="email" type="email" form="meu-form">
+
+<!-- Exemplo de required -->
+<input type="text" required>
+
+<!-- Exemplo de placeholder -->
+<input type="password" placeholder="Digite sua senha">
