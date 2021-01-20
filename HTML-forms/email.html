@@ -1,0 +1,97 @@
+<!--
+    <input type="email" />
+
+    - espera que o usuário digite um email
+    - irá validar se o valor digitado é um email
+
+    Atributos
+
+    - placeholder
+    - readonly / disabled
+    - value
+    -required
+
+    - multiple:
+        * o campo irá receber 1 ou mais emails, separando por vírgulas
+
+    - minlenght / maxlenght:
+        * o mínimo e/ou máximo valor que o campo irá conter
+
+    - size:
+        * valor numérico indicando quantos caracteres esse campo deveria conter, modificando o
+          o tamanho do campo para o usuário
+
+    - pattern:
+        * uso de expressão regular para validar o campo 
+        * EXEMPLO:
+            -> o usuário só poderá colocar email do domínio rocketseat.com.br
+            -> pattern=".+@rocketseat\.com\.br"
+
+    - list:
+        * o id de uma tag <datalist> que está no mesmo documento
+        * <datalist> irá conter uma lista de valores pré definidos a fom de sugrerir ao 
+          usuário, quais valores estão disponíveis
+        * os valores do <datalist> que não forem compatíveis com o campo, não serão 
+          apresentados como sugestão
+-->
+
+<!-- Exemplo 1 -->
+<form action="">
+    <input type="email"
+    disabled
+    value="mayk@mayk.com"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Exemplo 2 -->
+<form action="">
+    <input type="email"
+    multiple
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Exemplo 3 -->
+<form action="">
+    <input type="email"
+    minlength="8"
+    maxlength="255"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Exemplo 4 -->
+<form action="">
+    <input type="email"
+    size="8"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Exemplo 5 -->
+<form action="">
+    <input type="email"
+    pattern=".+@rocketseat\.com\.br"
+    title="Somente emails rocketseat.com.br serão aceitos"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Exemplo 6 -->
+<form action="">
+    <datalist id="emailslist">
+        <option>mayk@rocketseat.com.br</option>
+    </datalist>
+
+    <input type="email"
+    list="emailslist"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
