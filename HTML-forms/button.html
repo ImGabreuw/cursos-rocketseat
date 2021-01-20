@@ -1,0 +1,39 @@
+<!--
+    Tag button (<button>)
+
+    - representa um botão
+    - usado para enviar formulários
+    - é estilizado pelo user agent (navegador)
+
+    Atributos comuns
+
+    - type:
+        * submit (enviar formulário)
+        * reset (limpar formulário)
+        * button (enviar formulário)
+
+    - autofocus (ao pressionar o enter o botão que tiver esse atributo será executado)
+    - disabled (não é possível editar)
+    - name (nome do botão)
+    - value (valor do botão)
+    - form (linkar com uma formulário)
+-->
+
+<!-- Exemplo de SUBMIT/BUTTON -->
+<button type="submit">Enviar</button>
+
+<!-- Exemplo de RESET -->
+<form action="">
+    <input type="text" value="alguma coisa">
+    <button type="reset">Limpar</button>
+</form>
+
+<!-- Exemplo de AUTOFOCUS -->
+<button autofocus>Enviar</button>
+
+<!-- Exemplo de NAME/VALUE -->
+<button type="submit" name="button" value="Valor qualquer">Enviar</button>
+
+<!-- Exemplo de FORM -->
+<form action="" id="meu-form"></form>
+<button type="submit" form="meu-form">Enviar</button>
