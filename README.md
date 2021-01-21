@@ -1,1 +1,1 @@
-# Cursos-RocketSeat
+# Curso-RocketSeat
