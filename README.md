@@ -5,7 +5,7 @@
 <h3>Guias estelares</h3>
 <p align="left">
     <section>
-        <p>O guia estelar de HTML:</p>
+        <p>O guia estelar de HTML</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-html">
             <img 
@@ -16,7 +16,7 @@
     </section>
 
     <section>
-        <p>O guia estelar de CSS:</p>
+        <p>O guia estelar de CSS</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-css">
             <img 
@@ -27,7 +27,7 @@
     </section>
 
     <section>
-        <p>O guia estelar de Git:</p>
+        <p>O guia estelar de Git</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-git">
             <img 
@@ -38,7 +38,7 @@
     </section>
 
     <section>
-        <p>O guia estelar de JavaScript:</p>
+        <p>O guia estelar de JavaScript</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script">
             <img 
@@ -49,7 +49,7 @@
     </section>
 
     <section>
-        <p>O guia estelar de programação:</p>
+        <p>O guia estelar de programação</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-programacao">
             <img 
@@ -60,7 +60,7 @@
     </section>
 
     <section>
-        <p>O guia estelar de HTTP:</p>
+        <p>O guia estelar de HTTP</p>
 
         <a href="https://app.rocketseat.com.br/node/guia-estelar-de-http">
             <img 
