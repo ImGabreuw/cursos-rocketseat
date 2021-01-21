@@ -3,8 +3,6 @@
 <h2 align="left">Lista de cursos</h2>
 
 <h3>Guias estelares</h3>
-<div>
-    <section>
         <p>O guia estelar de HTML</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-html">
@@ -13,9 +11,7 @@
                 alt="O guia estelar de HTML"
             >
         </a>
-    </section>
 
-    <section>
         <p>O guia estelar de CSS</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-css">
@@ -24,9 +20,7 @@
                 alt="O guia estelar de CSS"
             >
         </a>
-    </section>
 
-    <section>
         <p>O guia estelar de Git</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-git">
@@ -35,9 +29,7 @@
                 alt="O guia estelar de Git"
             >
         </a>
-    </section>
 
-    <section>
         <p>O guia estelar de JavaScript</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script">
@@ -46,9 +38,7 @@
                 alt="O guia estelar de JavaScript"
             >
         </a>
-    </section>
 
-    <section>
         <p>O guia estelar de programação</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-programacao">
@@ -57,9 +47,7 @@
                 alt="O guia estelar de programação"
             >
         </a>
-    </section>
 
-    <section>
         <p>O guia estelar de HTTP:</p>
 
         <a href="https://app.rocketseat.com.br/node/guia-estelar-de-http">
@@ -68,7 +56,6 @@
                 alt="O guia estelar de HTTP"
             >
         </a>
-    </section>
 </div>
 
 ---
