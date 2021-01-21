@@ -1,0 +1,90 @@
+<!--
+    <input type="url">
+    
+    - espera que o usuário digite uma url
+    - irá validar se o valor digitado é uma url
+
+    Atributos:
+
+    - placeholder
+    - readonly / disabled
+    - value
+    - required
+
+    - minlenght / maxlenght:
+        * o mínimo e/ou máximo valor que o campo irá conter
+    
+    - size:
+        * valor numérico indicando quantos caracters esse campo deveria conter, 
+          modificando o tamanho de campo para usuário
+
+    - pattern:
+        * uso de expressão regular para validar o campo
+        * EXEMPLO:
+            -> o usuário só poderá colocar domínio .com.br
+            -> pattern=".*\.com\.br\/.*"
+    
+    - list:
+        * o id de uma tag <datalist> que está no mesmo documento
+        * <datalist> irá conter uma lista de valores pré definidos a fim de sugerir ao 
+          usuário, quais valores estão disponíveis.
+        * os valores de <datalist> que não forem compatíveis com o campo, não serão 
+          apresentados como sugestão.
+
+    - spellcheck:
+        * habilitar a varificação ortográfica para este input
+    
+-->
+
+<!-- Exemplo 1 -->
+<form action="">
+    <input type="url"
+    placeholder="http://exemple.com"
+    required>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Exemplo 2 -->
+<form action="">
+    <input type="url"
+    placeholder="http://exemple.com.br"
+    pattern=".*\.com\.br\/.*"
+    title="Somentes domínios '.com.br' serão aceitos"
+    required>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Exemplo 3 -->
+<datalist id="urlsdata">
+    <option>https://meusite.com.br</option>
+</datalist>
+
+<form action="">
+    <input type="url"
+    placeholder="http://exemple.com.br"
+    pattern=".*\.com\.br\/.*"
+    title="Somentes domínios '.com.br' serão aceitos"
+    list="urlsdata"
+    required>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Exemplo 4 -->
+<datalist id="urlsdata">
+    <option>https://meusite.com.br</option>
+</datalist>
+
+<form action="">
+    <input type="url"
+    placeholder="http://exemple.com.br"
+    pattern=".*\.com\.br\/.*"
+    title="Somentes domínios '.com.br' serão aceitos"
+    list="urlsdata"
+    required
+    spellcheck="true">
+
+    <button type="submit">Enviar</button>
+</form>
