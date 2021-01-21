@@ -1,0 +1,46 @@
+<!--
+    <input type="checkbox">
+
+    - caixas que podem ser marcadas
+    - selecionar um valor para ser enviado
+    - se não selecionado, não será enviado nenhum dado
+
+    Atributos:
+    - globais 
+
+    - value:
+        * valor que aquele comapo contém
+        * se não estiver presente, o padrão é 'on'
+
+    - checked:
+        * para deixar o campo marcado por padrão
+    
+    Marcar múltiplos valores:
+
+    - usaremos o atributo 'name' com o mesmo nome para os diversos campos
+-->
+
+<!-- Exemplo 1 -->
+<label for="subscribe">Receber notificação</label>
+<input type="checkbox" name="subscribe" id="subscribe">
+<!-- OUTPUT = 'on'/vazio -->
+
+<!-- Exemplo 2 -->
+<label for="subscribe">Receber notificação</label>
+<input type="checkbox" name="subscribe" id="subscribe" checked>
+
+<!-- Exemplo 3 (marcar múltiplos valores) -->
+<fieldset>
+    <legend>Choose your interests</legend>
+
+    <div>
+        <input type="checkbox" id="coding" name="interest" value="coding" checked>
+        <label for="coding">Coding</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="interest" id="music" value="music">
+        <label for="music">Music</label>
+    </div>
+</fieldset>
+<!-- EXEMPLO OUTPUT = insterest=coding,music -->
