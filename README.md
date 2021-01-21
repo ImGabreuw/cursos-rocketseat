@@ -3,8 +3,9 @@
 <h2 align="left">Lista de cursos</h2>
 
 <h3>Guias estelares</h3>
-<div align="left">
+<div>
     <section>
+        <p>O guia estelar de HTML</p>
 
         <a href="https://app.rocketseat.com.br/node/o-guia-estelar-de-html">
             <img 
