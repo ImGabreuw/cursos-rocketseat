@@ -2,10 +2,8 @@
 
 <h2 align="left">Lista de cursos</h2>
 
----
-
 <h3>Guias estelares</h3>
-<div name="Guias estelares" align="left">
+<p align="left">
     <section>
         <p>O guia estelar de HTML:</p>
 
@@ -71,6 +69,6 @@
             >
         </a>
     </section>
-</div>
+</p>
 
 ---
