@@ -56,6 +56,4 @@
                 alt="O guia estelar de HTTP"
             >
         </a>
-</div>
-
 ---
